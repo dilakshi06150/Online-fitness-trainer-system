@@ -1,0 +1,166 @@
+:root {
+  --site-primary: #ff5e00;
+  --text-primary: #333333;
+  --bg-color: #ffffff;
+}
+
+.cls-card {
+  width: 300px;
+  height: 400px;
+  background: var(--bg-color);
+}
+
+.cls-card img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.cls-card-about {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+}
+
+.cls-card-name {
+  width: 200px;
+  padding: 5px;
+  height: 30px;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-primary);
+}
+
+.cls-card-info {
+  width: 280px;
+  height: 40px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #555f61;
+}
+
+.trainer-info {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+}
+.profile {
+  width: 150px;
+  padding: 3px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.profile p {
+  font-size: 13px;
+  color: #555f61;
+  font-weight: 500;
+}
+.profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+.line {
+  background: rgb(167, 162, 162);
+  width: 2px;
+  height: 30px;
+}
+.time {
+  width: 150px;
+  font-size: 13px;
+  color: #555f61;
+  font-weight: 500;
+}
+
+.join {
+  width: 280px;
+  height: 30px;
+  padding: 5px 0px;
+  border: none;
+  background: var(--site-primary);
+  color: var(--bg-color);
+  text-align: center;
+  font-weight: 600;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* coach Class card */
+
+.ch-card {
+  width: 300px;
+  height: 360px;
+  background: var(--bg-color);
+}
+
+.ch-card img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.ch-card-about {
+  width: 300px;
+  height: 160px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  gap: 8px;
+}
+
+.ch-card-name {
+  width: 200px;
+  padding: 5px;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.ch-card-info {
+  margin: 0;
+  width: 280px;
+  height: 60px;
+  font-size: 12px;
+  font-weight: 500;
+  color: #555f61;
+}
+
+.btns {
+  margin-top: 10px;
+  display: inline-flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.edit-btn {
+  cursor: pointer;
+  width: 60px;
+  padding: 3px 12px;
+  background: rgba(0, 0, 255, 0.755);
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 13px;
+}
+
+.del-btn {
+  cursor: pointer;
+  width: 60px;
+  padding: 3px 12px;
+  background: rgba(238, 82, 82, 1);
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 13px;
+}

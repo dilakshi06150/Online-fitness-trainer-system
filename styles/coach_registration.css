@@ -1,0 +1,80 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+body {
+  background-color: #ffffff;
+  color: aliceblue;
+}
+
+.container {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  gap: 60px;
+}
+
+.img-slide img {
+  width: 650px;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.coach_registration {
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+.coach_registration h1 {
+  color: #333333;
+  font-size: 50px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+form {
+  padding: 10px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+}
+
+.inputs {
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+}
+
+.coach_registration p {
+  font-size: 18px;
+  margin: 15px 0;
+  color: rgba(104, 88, 121, 1);
+}
+.coach_registration input {
+  font-size: 14px;
+  padding: 10px 5px;
+  width: 300px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+form button {
+  background: #ff5e00;
+  width: 200px;
+  border: none;
+  padding: 7px 10px;
+  color: aliceblue;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+form button:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
