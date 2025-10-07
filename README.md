@@ -5,7 +5,7 @@ Implemented as a requirement of the Internet and Web technogies Module at the un
 
 📌Purpose: Connect users with fitness trainers and provide a platform for workout and diet management
 
-Features:
+//Features:
 
 📑User & Trainer Registration/Login
 
